@@ -15,7 +15,7 @@ router.get('/:id', EventController.getEventDetails);
 router.post('/:eventId/register', EventController.registerForEvent);
 
 // Rota para manipular a edição de evento (PUT /events/:id)
-router.put('/:id', EventController.editEvent);
+router.put('/:id', EventController.updateEvent);
 
 // Rota para excluir um evento (DELETE /events/:id)
 router.delete('/:id', EventController.deleteEvent);
